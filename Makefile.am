@@ -2,7 +2,9 @@ AM_CFLAGS = \
 	-std=c99 \
 	-pedantic \
 	-Wall \
-	-Wextra
+	-Wextra \
+	-I$(top_builddir)/include \
+	-I$(top_srcdir)/include
 
 bin_PROGRAMS = autotools-project
 
