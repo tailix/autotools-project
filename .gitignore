@@ -1,0 +1,55 @@
+##########################
+# Common generated files #
+##########################
+
+*.a
+*.c.d
+*.o
+
+.deps/
+.dirstamp
+
+############################
+# Always generated in root #
+############################
+
+/INSTALL
+/aclocal.m4
+/ar-lib
+/autom4te.cache/
+/autoscan.log
+/compile
+/config.guess
+/config.h.in
+/config.h.in~
+/config.sub
+/configure
+/configure.ac~
+/configure~
+/depcomp
+/install-sh
+/missing
+/test-driver
+
+# Custom
+
+/Makefile.in
+
+###########################################
+# Only generated when configuring in root #
+###########################################
+
+/config.h
+/config.log
+/config.status
+/stamp-h1
+/test-suite.log
+
+/tests/test*.log
+/tests/test*.trs
+
+# Custom
+
+/Makefile
+
+/autotools-project
