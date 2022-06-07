@@ -17,6 +17,7 @@ AM_INIT_AUTOMAKE([1.9 subdir-objects])
 
 AC_CONFIG_FILES([
   Makefile
+  include/Makefile
 ])
 
 AC_LANG([C])

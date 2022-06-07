@@ -34,6 +34,7 @@
 # Custom
 
 /Makefile.in
+/include/Makefile.in
 
 ###########################################
 # Only generated when configuring in root #
@@ -51,5 +52,6 @@
 # Custom
 
 /Makefile
+/include/Makefile
 
 /autotools-project

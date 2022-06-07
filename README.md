@@ -12,4 +12,4 @@ Don't forget to change the following files:
 * `Makefile.am`
 * `README.md`
 
-Remove submodule `vendor/cross` if you don't need it.
+Remove directory `include` and submodule `vendor/cross` if you don't need them.
