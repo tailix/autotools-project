@@ -4,10 +4,13 @@
 
 *.a
 *.c.d
+*.la
+*.lo
 *.o
 
 .deps/
 .dirstamp
+.libs/
 
 ############################
 # Always generated in root #
@@ -28,8 +31,12 @@
 /configure~
 /depcomp
 /install-sh
+/ltmain.sh
 /missing
 /test-driver
+
+/m4/*
+!/m4/.keep
 
 # Custom
 
@@ -43,6 +50,7 @@
 /config.h
 /config.log
 /config.status
+/libtool
 /stamp-h1
 /test-suite.log
 

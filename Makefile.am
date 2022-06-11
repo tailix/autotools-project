@@ -1,3 +1,5 @@
+ACLOCAL_AMFLAGS = -I m4
+
 SUBDIRS = include
 
 AM_CFLAGS = \
@@ -9,10 +11,10 @@ AM_CFLAGS = \
 	-I$(top_srcdir)/include
 
 bin_PROGRAMS = autotools-project
-lib_LIBRARIES = libautotools-project.a
+lib_LTLIBRARIES = libautotools-project.la
 
 autotools_project_SOURCES = \
 	src/main.c
 
-libautotools_project_a_SOURCES = \
+libautotools_project_la_SOURCES = \
 	src/lib.c
