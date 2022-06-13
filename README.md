@@ -11,5 +11,6 @@ Don't forget to change the following files:
 * `COPYING`
 * `Makefile.am`
 * `README.md`
+* `VERSION`
 
 Remove directory `include` and submodule `vendor/cross` if you don't need them.

@@ -12,7 +12,7 @@ LT_PREREQ([2.4.6])
 #######################
 
 AC_INIT([autotools-project],
-  [0.0.0],
+  m4_normalize(m4_include([VERSION])),
   [https://github.com/tailix/autotools-project/issues],
   [autotools-project],
   [https://github.com/tailix/autotools-project])
